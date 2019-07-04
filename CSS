@@ -1,0 +1,173 @@
+#navbar {
+  height: 75px;
+  width: 100%;
+  background-color: #BE3046;
+  position: fixed;
+  z-index: 1;
+}
+
+.nav-list {
+  list-style: none;
+  margin-left: 950px;
+}
+
+.nav-list-item {
+  display: inline-block;
+  font-family: arial;
+  font-size: 25px;
+  margin-top: 0px;
+  height: 75px;
+  width: 110px;
+  padding-left: 15px;
+  padding-top: 15px;
+}
+
+a {
+  color: white;
+}
+
+.nav-list-item:hover {
+  background-color: #405477;
+}
+
+a:hover {
+  text-decoration: none;
+  color: white;
+}
+
+#welcome-section {
+  height: 100vh;
+  width: 100%;
+  background-color: #2B2C2E;
+  padding-top: 150px;
+}
+
+#intro {
+  color: white;
+  text-align: center;
+  font-size: 60px;
+  margin-top: 100px;
+}
+
+#sub-intro {
+  text-align: center;
+  color: #BE3046;
+  font-weight: 300;
+}
+
+#projects {
+  height: 100px;
+  width: 100%;
+  height: 900px;
+  background-color: #44567C;
+}
+
+#projects-header {
+  text-align: center;
+  text-decoration: underline;
+  color: white;
+  padding-top: 100px;
+}
+
+img {
+  height: 300px;
+  width: 400px;
+  border: 2px solid black;
+  margin-left: 15px;
+}
+
+.project-tile {
+  display: inline-block;
+}
+
+img {
+  height: 200px;
+  width: 300px;
+  margin-left: 170px;
+  margin-top: 40px;
+}
+
+.project-title {
+  margin-left: 170px;
+  background-color: #303942;
+  color: white;
+  width: 300px;
+  height: 70px;
+  padding-left: 40px;
+  padding-top: 20px;
+}
+
+#product-landing-page {
+  padding-left: 45px;
+}
+
+#survey-form {
+  padding-left: 90px;
+}
+
+#tribute-page {
+  padding-left: 90px;
+}
+
+#technical-documentation-page {
+  padding-left: 10px;
+}
+
+#contact-page {
+  height: 500px;
+  width: 100%;
+  background-color: #313842;
+  padding-top: 100px;
+}
+
+.contact-header {
+  text-align: center;
+  color: white;
+  font-size: 60px;
+}
+
+#contact-sub-header {
+  text-align: center;
+  color: white;
+  font-weight: 400;
+}
+
+.contact-info {
+  margin-left: 430px;
+  margin-top: 50px;
+  font-family: arial;
+}
+
+.contact-info-item {
+  display: inline-block;
+  margin-left: 20px;
+  font-family: arial;
+  color: white;
+  font-size: 30px;
+}
+
+.fa fa-github, .fa fa-at, .fa fa-phone {
+  
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+}
+
+.footer {
+  border-top: 2px solid #BE3046;;
+  height: 60px;
+  width: 100%;
+  background-color: #405477;
+}
+
+#footer-sig {
+  text-align: center;
+  color: white;
+  font-family: arial;
+  margin-top: 15px;
+}
+
+
